@@ -1,0 +1,63 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color:white;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Existing styles */
+
+/* Add these styles to align login and signup links to the right */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    padding: 0;
+}
+
+.nav-item-right {
+    margin-left: 250px; /* Push items to the right */
+    list-style: none; /* Remove bullet points */
+}
+
+/* Specific styles for different pages/sections */
+/* Add specific styling for header, navigation, main content, footer, etc. */
+/* Add styles specific to each page ID/class */
